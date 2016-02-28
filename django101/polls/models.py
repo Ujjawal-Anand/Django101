@@ -15,4 +15,4 @@ class Choice(models.Model):
     vote = models.IntegerField(default=0)
 
     def __str__(self):
-        return choice_text
+        return self.choice_text
